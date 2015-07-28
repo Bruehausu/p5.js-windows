@@ -1,0 +1,36 @@
+{
+  "author": "Guy de Bree",
+  "name": "p5-windows",
+  "description": "Javascript IDE for beginners (Windows port)",
+  "version": "0.0.1",
+  "devDependencies": {
+    "br-mousetrap": "~1.1.3",
+    "brace": "git+https://gigit@github.com/antiboredom/brace.git",
+    "browserify": "^3.33.1",
+    "express": "^4.12.3",
+    "github-release": "~0.1.0",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "~0.5.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-download": "0.0.1",
+    "gulp-notify": "~1.4.0",
+    "gulp-plumber": "~0.6.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-zip": "~0.4.0",
+    "jquery": "~2.1.1",
+    "js-beautify": "~1.5.1",
+    "node-webkit-builder": "^1.0.11",
+    "nw": "0.12.0",
+    "partialify": "^3.1.1",
+    "underscore": "~1.6.0",
+    "vue": "^0.10.3"
+  },
+  "scripts": {
+    "start": "nw public"
+  },
+  "dependencies": {
+    "request": "^2.56.0",
+    "autolinker": "^0.17.1"
+  }
+}
